@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,12 +13,12 @@ declare(strict_types=1);
 namespace Tests\Fixtures\AppBundle\Controller;
 
 use Doctrine\ORM\Query;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
-use Omines\DataTablesBundle\Column\DateTimeColumn;
-use Omines\DataTablesBundle\Column\TextColumn;
-use Omines\DataTablesBundle\Column\TwigColumn;
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\DataTableFactory;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
+use MikahDev\DataTablesBundle\Column\DateTimeColumn;
+use MikahDev\DataTablesBundle\Column\TextColumn;
+use MikahDev\DataTablesBundle\Column\TwigColumn;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\DataTableFactory;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Tests\Fixtures\AppBundle\Entity\Employee;
@@ -26,7 +26,7 @@ use Tests\Fixtures\AppBundle\Entity\Employee;
 /**
  * PlainController.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class PlainController extends AbstractController
 {

@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\Adapter\Doctrine;
+namespace MikahDev\DataTablesBundle\Adapter\Doctrine;
 
 /**
  * Available events.
@@ -25,7 +25,7 @@ final class ORMAdapterEvents
      *
      * It can be useful to configure the cache.
      *
-     * @Event("Omines\DataTablesBundle\Adapter\Doctrine\Event\ORMAdapterQueryEvent")
+     * @Event("MikahDev\DataTablesBundle\Adapter\Doctrine\Event\ORMAdapterQueryEvent")
      */
-    const PRE_QUERY = 'omines_datatables.ormadapter.pre_query';
+    const PRE_QUERY = 'mikahdev_datatables.ormadapter.pre_query';
 }

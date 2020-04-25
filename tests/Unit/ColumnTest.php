@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -12,21 +12,21 @@ declare(strict_types=1);
 
 namespace Tests\Unit;
 
-use Omines\DataTablesBundle\Column\BoolColumn;
-use Omines\DataTablesBundle\Column\DateTimeColumn;
-use Omines\DataTablesBundle\Column\MapColumn;
-use Omines\DataTablesBundle\Column\NumberColumn;
-use Omines\DataTablesBundle\Column\TextColumn;
-use Omines\DataTablesBundle\Column\TwigColumn;
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\Exception\MissingDependencyException;
+use MikahDev\DataTablesBundle\Column\BoolColumn;
+use MikahDev\DataTablesBundle\Column\DateTimeColumn;
+use MikahDev\DataTablesBundle\Column\MapColumn;
+use MikahDev\DataTablesBundle\Column\NumberColumn;
+use MikahDev\DataTablesBundle\Column\TextColumn;
+use MikahDev\DataTablesBundle\Column\TwigColumn;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\Exception\MissingDependencyException;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
 /**
  * ColumnTest.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class ColumnTest extends TestCase
 {

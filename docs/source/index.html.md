@@ -2,10 +2,10 @@
 title: Symfony DataTables Bundle
 
 toc_footers:
-  - <a href='https://packagist.org/packages/omines/datatables-bundle'>Install from Packagist</a>
-  - <a href='https://github.com/omines/datatables-bundle'>Fork me on GitHub</a>
-  - <a href='https://github.com/omines/datatables-bundle/issues'>Report an issue</a>
-  - <a href='https://www.omines.nl/' title='Internetbureau Eindhoven'>Omines Full Service Internetbureau</a>
+  - <a href='https://packagist.org/packages/mikahdev/datatables-bundle'>Install from Packagist</a>
+  - <a href='https://github.com/mikahdev/datatables-bundle'>Fork me on GitHub</a>
+  - <a href='https://github.com/mikahdev/datatables-bundle/issues'>Report an issue</a>
+  - <a href='https://www.mikahdev.nl/' title='Internetbureau Eindhoven'>MikahDev Full Service Internetbureau</a>
 
 search: true
 ---
@@ -23,7 +23,7 @@ ready made adapters for common use cases like Doctrine ORM, but they are trivial
 
 Recommended way of installing this library is through [Composer](https://getcomposer.org/).
 
-<code>composer require omines/datatables-bundle</code>
+<code>composer require mikahdev/datatables-bundle</code>
 
 Please ensure you are using Symfony 4.1 or later. If you are using Symfony Flex a recipe is included in the contrib
 repository, providing automatic installation and configuration.
@@ -32,7 +32,7 @@ repository, providing automatic installation and configuration.
 public function registerBundles()
 {
     // After Symfony's own bundles 
-    new \Omines\DataTablesBundle\DataTablesBundle(),
+    new \MikahDev\DataTablesBundle\DataTablesBundle(),
     // Before your application bundles
 }
 ```
@@ -65,9 +65,9 @@ The code snippets here should get you started quickly, including jQuery 3. For m
 # Quickstart
 
 ```php?start_inline=true
-use Omines\DataTablesBundle\Adapter\ArrayAdapter;
-use Omines\DataTablesBundle\Column\TextColumn;
-use Omines\DataTablesBundle\DataTableFactory;
+use MikahDev\DataTablesBundle\Adapter\ArrayAdapter;
+use MikahDev\DataTablesBundle\Column\TextColumn;
+use MikahDev\DataTablesBundle\DataTableFactory;
 
 class MyController extends Controller
 {
@@ -153,7 +153,7 @@ datatables:
     persist_state:        fragment # One of "none"; "query"; "fragment"; "local"; "session"
 
     # Default service used to render templates, built-in TwigRenderer uses global Twig environment
-    renderer:             Omines\DataTablesBundle\Twig\TwigRenderer
+    renderer:             MikahDev\DataTablesBundle\Twig\TwigRenderer
 
     # Default template to be used for DataTables HTML
     template:             '@DataTables/datatable_html.html.twig'
@@ -219,7 +219,7 @@ Ready-made adapters are supplied for easy integration with various data sources.
 ## Doctrine ORM
 
 ```php?start_inline=1
-use Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
 
 $table = $this->createDataTable()
     ->add('firstName', TextColumn::class)
@@ -321,7 +321,7 @@ and before the iteration starts. It can be useful to configure the cache.
 ## Elastica
 
 ```php?start_inline=1
-use Omines\DataTablesBundle\Adapter\Elasticsearch\ElasticaAdapter;
+use MikahDev\DataTablesBundle\Adapter\Elasticsearch\ElasticaAdapter;
 
 $table = $this->createDataTable()
     ->setName('log')
@@ -342,7 +342,7 @@ indexes as the data source.
 ## MongoDB
 
 ```php?start_inline=1
-use Omines\DataTablesBundle\Adapter\MongoDB\MongoDBAdapter;
+use MikahDev\DataTablesBundle\Adapter\MongoDB\MongoDBAdapter;
 
 $table = $this->createDataTable()
     ->add('name', TextColumn::class)
@@ -506,7 +506,7 @@ $table = $this->createDataTableFromType(PresidentsTableType::class)
 Having the table configuration in your controller is convenient, but not practical for reusable or
 extensible tables, or highly customized tables. In the example above we could also create a class
 `DataTable\Type\PresidentsTableType` in our app bundle, and make it implement 
-`Omines\DataTablesBundle\DataTableTypeInterface`. We can then use the code illustrated here to
+`MikahDev\DataTablesBundle\DataTableTypeInterface`. We can then use the code illustrated here to
 instantiate the reusable class in the controller.
 
 This ensures your controllers stay lean and short, and only delegate tasks. The first parameter
@@ -547,6 +547,6 @@ all the flexibility you could need to [invoke API functions](https://datatables.
 
 # Legal
 
-This software was developed for internal use at [Omines Full Service Internetbureau](https://www.omines.nl/)
+This software was developed for internal use at [MikahDev Full Service Internetbureau](https://www.mikahdev.nl/)
 in Eindhoven, the Netherlands. It is shared with the general public under the permissive MIT license, without
 any guarantee of fitness for any particular purpose. Refer to the included `LICENSE` file for more details.

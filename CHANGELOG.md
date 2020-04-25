@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to `omines\datatables-bundle` will be documented in this file.
+All notable changes to `mikahdev\datatables-bundle` will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
@@ -107,16 +107,16 @@ Nothing yet.
 ### Added
  - Basic functionality
 
-[Unreleased]: https://github.com/omines/datatables-bundle/compare/0.4.1...master
-[0.4.1]: https://github.com/omines/datatables-bundle/compare/0.4.0...0.4.1
-[0.4.0]: https://github.com/omines/datatables-bundle/compare/0.3.1...0.4.0
-[0.3.1]: https://github.com/omines/datatables-bundle/compare/0.3.0...0.3.1
-[0.3.0]: https://github.com/omines/datatables-bundle/compare/0.2.2...0.3.0
-[0.2.2]: https://github.com/omines/datatables-bundle/compare/0.2.1...0.2.2
-[0.2.1]: https://github.com/omines/datatables-bundle/compare/0.2.0...0.2.1
-[0.2.0]: https://github.com/omines/datatables-bundle/compare/0.1.5...0.2.0
-[0.1.5]: https://github.com/omines/datatables-bundle/compare/0.1.4...0.1.5
-[0.1.4]: https://github.com/omines/datatables-bundle/compare/0.1.3...0.1.4
-[0.1.3]: https://github.com/omines/datatables-bundle/compare/0.1.2...0.1.3
-[0.1.2]: https://github.com/omines/datatables-bundle/compare/0.1.1...0.1.2
-[0.1.1]: https://github.com/omines/datatables-bundle/compare/0.1.0...0.1.1
+[Unreleased]: https://github.com/mikahdev/datatables-bundle/compare/0.4.1...master
+[0.4.1]: https://github.com/mikahdev/datatables-bundle/compare/0.4.0...0.4.1
+[0.4.0]: https://github.com/mikahdev/datatables-bundle/compare/0.3.1...0.4.0
+[0.3.1]: https://github.com/mikahdev/datatables-bundle/compare/0.3.0...0.3.1
+[0.3.0]: https://github.com/mikahdev/datatables-bundle/compare/0.2.2...0.3.0
+[0.2.2]: https://github.com/mikahdev/datatables-bundle/compare/0.2.1...0.2.2
+[0.2.1]: https://github.com/mikahdev/datatables-bundle/compare/0.2.0...0.2.1
+[0.2.0]: https://github.com/mikahdev/datatables-bundle/compare/0.1.5...0.2.0
+[0.1.5]: https://github.com/mikahdev/datatables-bundle/compare/0.1.4...0.1.5
+[0.1.4]: https://github.com/mikahdev/datatables-bundle/compare/0.1.3...0.1.4
+[0.1.3]: https://github.com/mikahdev/datatables-bundle/compare/0.1.2...0.1.3
+[0.1.2]: https://github.com/mikahdev/datatables-bundle/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/mikahdev/datatables-bundle/compare/0.1.0...0.1.1

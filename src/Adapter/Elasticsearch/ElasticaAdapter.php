@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,19 +10,19 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\Adapter\Elasticsearch;
+namespace MikahDev\DataTablesBundle\Adapter\Elasticsearch;
 
-use Omines\DataTablesBundle\Adapter\AbstractAdapter;
-use Omines\DataTablesBundle\Adapter\AdapterQuery;
-use Omines\DataTablesBundle\Column\AbstractColumn;
-use Omines\DataTablesBundle\DataTableState;
-use Omines\DataTablesBundle\Exception\MissingDependencyException;
+use MikahDev\DataTablesBundle\Adapter\AbstractAdapter;
+use MikahDev\DataTablesBundle\Adapter\AdapterQuery;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\DataTableState;
+use MikahDev\DataTablesBundle\Exception\MissingDependencyException;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * ElasticaAdapter.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class ElasticaAdapter extends AbstractAdapter
 {

@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -18,7 +18,7 @@ use Symfony\Component\HttpKernel\Kernel;
 /**
  * AppKernel.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class AppKernel extends Kernel
 {
@@ -28,7 +28,7 @@ class AppKernel extends Kernel
             new \Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new \Symfony\Bundle\TwigBundle\TwigBundle(),
             new \Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
-            new \Omines\DataTablesBundle\DataTablesBundle(),
+            new \MikahDev\DataTablesBundle\DataTablesBundle(),
             new \Tests\Fixtures\AppBundle\AppBundle(),
         ];
     }

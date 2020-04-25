@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,15 +10,15 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle;
+namespace MikahDev\DataTablesBundle;
 
-use Omines\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
 use Symfony\Component\HttpFoundation\ParameterBag;
 
 /**
  * DataTableState.
  *
- * @author Robbert Beesems <robbert.beesems@omines.com>
+ * @author Robbert Beesems <robbert.beesems@mikahdev.com>
  */
 class DataTableState
 {

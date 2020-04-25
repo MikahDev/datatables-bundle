@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,16 +10,16 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\Column;
+namespace MikahDev\DataTablesBundle\Column;
 
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\Filter\AbstractFilter;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\Filter\AbstractFilter;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * AbstractColumn.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 abstract class AbstractColumn
 {

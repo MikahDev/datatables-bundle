@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -12,18 +12,18 @@ declare(strict_types=1);
 
 namespace Tests\Unit;
 
-use Omines\DataTablesBundle\Adapter\ArrayAdapter;
-use Omines\DataTablesBundle\Column\TextColumn;
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\DataTableFactory;
-use Omines\DataTablesBundle\DataTableRendererInterface;
-use Omines\DataTablesBundle\DataTablesBundle;
-use Omines\DataTablesBundle\DependencyInjection\DataTablesExtension;
-use Omines\DataTablesBundle\DependencyInjection\Instantiator;
-use Omines\DataTablesBundle\Exception\InvalidArgumentException;
-use Omines\DataTablesBundle\Exception\InvalidConfigurationException;
-use Omines\DataTablesBundle\Exception\InvalidStateException;
-use Omines\DataTablesBundle\Twig\TwigRenderer;
+use MikahDev\DataTablesBundle\Adapter\ArrayAdapter;
+use MikahDev\DataTablesBundle\Column\TextColumn;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\DataTableFactory;
+use MikahDev\DataTablesBundle\DataTableRendererInterface;
+use MikahDev\DataTablesBundle\DataTablesBundle;
+use MikahDev\DataTablesBundle\DependencyInjection\DataTablesExtension;
+use MikahDev\DataTablesBundle\DependencyInjection\Instantiator;
+use MikahDev\DataTablesBundle\Exception\InvalidArgumentException;
+use MikahDev\DataTablesBundle\Exception\InvalidConfigurationException;
+use MikahDev\DataTablesBundle\Exception\InvalidStateException;
+use MikahDev\DataTablesBundle\Twig\TwigRenderer;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ServiceLocator;
@@ -35,7 +35,7 @@ use Tests\Fixtures\AppBundle\DataTable\Type\RegularPersonTableType;
 /**
  * DataTableTest.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class DataTableTest extends TestCase
 {
@@ -155,7 +155,7 @@ class DataTableTest extends TestCase
     public function testInvalidAdapterThrows()
     {
         $this->expectException(\InvalidArgumentException::class);
-        $this->expectExceptionMessage('Could not resolve type "foo\\bar" to a service or class, are you missing a use statement? Or is it implemented but does it not correctly derive from "Omines\\DataTablesBundle\\Adapter\\AdapterInterface"?');
+        $this->expectExceptionMessage('Could not resolve type "foo\\bar" to a service or class, are you missing a use statement? Or is it implemented but does it not correctly derive from "MikahDev\\DataTablesBundle\\Adapter\\AdapterInterface"?');
 
         $this->createMockDataTable()->createAdapter('foo\bar');
     }
@@ -163,7 +163,7 @@ class DataTableTest extends TestCase
     public function testInvalidColumnThrows()
     {
         $this->expectException(\InvalidArgumentException::class);
-        $this->expectExceptionMessage('Could not resolve type "bar" to a service or class, are you missing a use statement? Or is it implemented but does it not correctly derive from "Omines\\DataTablesBundle\\Column\\AbstractColumn"?');
+        $this->expectExceptionMessage('Could not resolve type "bar" to a service or class, are you missing a use statement? Or is it implemented but does it not correctly derive from "MikahDev\\DataTablesBundle\\Column\\AbstractColumn"?');
 
         $this->createMockDataTable()->add('foo', 'bar');
     }

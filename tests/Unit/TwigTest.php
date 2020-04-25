@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -12,9 +12,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit;
 
-use Omines\DataTablesBundle\Exception\MissingDependencyException;
-use Omines\DataTablesBundle\Twig\DataTablesExtension;
-use Omines\DataTablesBundle\Twig\TwigRenderer;
+use MikahDev\DataTablesBundle\Exception\MissingDependencyException;
+use MikahDev\DataTablesBundle\Twig\DataTablesExtension;
+use MikahDev\DataTablesBundle\Twig\TwigRenderer;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Translation\Translator;
 use Symfony\Contracts\Translation\TranslatorInterface;
@@ -22,7 +22,7 @@ use Symfony\Contracts\Translation\TranslatorInterface;
 /**
  * TwigTest.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class TwigTest extends TestCase
 {

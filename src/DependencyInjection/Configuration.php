@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,10 +10,10 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\DependencyInjection;
+namespace MikahDev\DataTablesBundle\DependencyInjection;
 
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\Twig\TwigRenderer;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\Twig\TwigRenderer;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 use Symfony\Component\HttpFoundation\Request;

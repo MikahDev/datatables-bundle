@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,17 +10,17 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\Twig;
+namespace MikahDev\DataTablesBundle\Twig;
 
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\DataTableRendererInterface;
-use Omines\DataTablesBundle\Exception\MissingDependencyException;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\DataTableRendererInterface;
+use MikahDev\DataTablesBundle\Exception\MissingDependencyException;
 use Twig\Environment;
 
 /**
  * TwigRenderer.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class TwigRenderer implements DataTableRendererInterface
 {

@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,14 +13,14 @@ declare(strict_types=1);
 namespace Tests\Unit;
 
 use Doctrine\Bundle\DoctrineBundle\Registry;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
-use Omines\DataTablesBundle\Exception\InvalidConfigurationException;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
+use MikahDev\DataTablesBundle\Exception\InvalidConfigurationException;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
 /**
  * AdapterTest.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class AdapterTest extends KernelTestCase
 {

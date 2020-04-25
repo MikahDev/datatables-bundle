@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -15,12 +15,12 @@ namespace Tests\Unit\Adapter;
 use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;
-use Omines\DataTablesBundle\Adapter\AdapterQuery;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORM\SearchCriteriaProvider;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
-use Omines\DataTablesBundle\Column\TextColumn;
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\Exception\InvalidConfigurationException;
+use MikahDev\DataTablesBundle\Adapter\AdapterQuery;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORM\SearchCriteriaProvider;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
+use MikahDev\DataTablesBundle\Column\TextColumn;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\Exception\InvalidConfigurationException;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
@@ -28,7 +28,7 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * DoctrineTest.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class DoctrineTest extends TestCase
 {

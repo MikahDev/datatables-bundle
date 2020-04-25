@@ -8,28 +8,28 @@
         <defaults autowire="true" autoconfigure="true" public="false" />
 
         <!-- Adapters -->
-        <service id="Omines\DataTablesBundle\Adapter\ArrayAdapter" />
-        <service id="Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter">
+        <service id="MikahDev\DataTablesBundle\Adapter\ArrayAdapter" />
+        <service id="MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter">
             <argument type="service" id="doctrine" on-invalid="null" />
         </service>
 
         <!-- Columns -->
-        <service id="Omines\DataTablesBundle\Column\TwigColumn">
+        <service id="MikahDev\DataTablesBundle\Column\TwigColumn">
             <argument type="service" id="twig" on-invalid="null" />
         </service>
 
         <!-- Factory -->
-        <service id="Omines\DataTablesBundle\DataTableFactory" public="true">
+        <service id="MikahDev\DataTablesBundle\DataTableFactory" public="true">
             <argument>%datatables.config%</argument>
             <argument type="service" id="datatables.renderer" />
-            <argument type="service" id="Omines\DataTablesBundle\DependencyInjection\Instantiator" />
+            <argument type="service" id="MikahDev\DataTablesBundle\DependencyInjection\Instantiator" />
             <argument type="service" id="event_dispatcher" />
         </service>
 
         <!-- Support services -->
-        <service id="Omines\DataTablesBundle\DependencyInjection\Instantiator" />
-        <service id="Omines\DataTablesBundle\Twig\DataTablesExtension" />
-        <service id="Omines\DataTablesBundle\Twig\TwigRenderer">
+        <service id="MikahDev\DataTablesBundle\DependencyInjection\Instantiator" />
+        <service id="MikahDev\DataTablesBundle\Twig\DataTablesExtension" />
+        <service id="MikahDev\DataTablesBundle\Twig\TwigRenderer">
             <argument type="service" id="twig" on-invalid="null" />
         </service>
     </services>

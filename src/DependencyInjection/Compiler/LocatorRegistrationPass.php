@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,12 +10,12 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\DependencyInjection\Compiler;
+namespace MikahDev\DataTablesBundle\DependencyInjection\Compiler;
 
-use Omines\DataTablesBundle\Adapter\AdapterInterface;
-use Omines\DataTablesBundle\Column\AbstractColumn;
-use Omines\DataTablesBundle\DataTableTypeInterface;
-use Omines\DataTablesBundle\DependencyInjection\Instantiator;
+use MikahDev\DataTablesBundle\Adapter\AdapterInterface;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\DataTableTypeInterface;
+use MikahDev\DataTablesBundle\DependencyInjection\Instantiator;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
@@ -25,7 +25,7 @@ use Symfony\Component\DependencyInjection\ServiceLocator;
 /**
  * LocatorRegistrationPass.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class LocatorRegistrationPass implements CompilerPassInterface
 {

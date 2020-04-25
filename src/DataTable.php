@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,15 +10,15 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle;
+namespace MikahDev\DataTablesBundle;
 
-use Omines\DataTablesBundle\Adapter\AdapterInterface;
-use Omines\DataTablesBundle\Adapter\ResultSetInterface;
-use Omines\DataTablesBundle\Column\AbstractColumn;
-use Omines\DataTablesBundle\DependencyInjection\Instantiator;
-use Omines\DataTablesBundle\Exception\InvalidArgumentException;
-use Omines\DataTablesBundle\Exception\InvalidConfigurationException;
-use Omines\DataTablesBundle\Exception\InvalidStateException;
+use MikahDev\DataTablesBundle\Adapter\AdapterInterface;
+use MikahDev\DataTablesBundle\Adapter\ResultSetInterface;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\DependencyInjection\Instantiator;
+use MikahDev\DataTablesBundle\Exception\InvalidArgumentException;
+use MikahDev\DataTablesBundle\Exception\InvalidConfigurationException;
+use MikahDev\DataTablesBundle\Exception\InvalidStateException;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -27,7 +27,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 /**
  * DataTable.
  *
- * @author Robbert Beesems <robbert.beesems@omines.com>
+ * @author Robbert Beesems <robbert.beesems@mikahdev.com>
  */
 class DataTable
 {

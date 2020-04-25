@@ -1,5 +1,5 @@
 {
-    "name": "omines/datatables-bundle",
+    "name": "mikahdev/metronic-datatables-bundle",
     "type": "symfony-bundle",
     "description": "Symfony DataTables Bundle with native Doctrine ORM, Elastica and MongoDB support",
     "keywords": ["symfony","jquery","datatable", "datatables", "bundle", "doctrine", "orm", "elastica", "mongodb"],
@@ -7,17 +7,17 @@
     "authors": [
         {
             "name": "Robbert Beesems",
-            "email": "robbert.beesems@omines.com",
-            "homepage": "https://omines.nl/"
+            "email": "robbert.beesems@mikahdev.com",
+            "homepage": "https://mikahdev.nl/"
         },
         {
             "name": "Niels Keurentjes",
-            "email": "niels.keurentjes@omines.com",
-            "homepage": "https://omines.nl/"
+            "email": "niels.keurentjes@mikahdev.com",
+            "homepage": "https://mikahdev.nl/"
         }
     ],
     "support": {
-      "issues": "https://github.com/omines/datatables-bundle/issues"
+      "issues": "https://github.com/mikahdev/datatables-bundle/issues"
     },
     "require": {
         "php": "^7.2",
@@ -57,7 +57,7 @@
         "symfony/twig-bundle": "To use default Twig based rendering and TwigColumn"
     },
     "autoload": {
-        "psr-4": { "Omines\\DataTablesBundle\\": "src/"}
+        "psr-4": { "mikahdev\\metronic-datatables-bundle\\": "src/"}
     },
     "autoload-dev": {
         "psr-4": { "Tests\\": "tests/"}

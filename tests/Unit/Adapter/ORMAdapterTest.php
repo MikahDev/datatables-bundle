@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -13,9 +13,9 @@ declare(strict_types=1);
 namespace Tests\Unit\Adapter;
 
 use Doctrine\ORM\Query\QueryException;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
-use Omines\DataTablesBundle\DataTableFactory;
-use Omines\DataTablesBundle\DataTableState;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
+use MikahDev\DataTablesBundle\DataTableFactory;
+use MikahDev\DataTablesBundle\DataTableState;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Tests\Fixtures\AppBundle\DataTable\Type\GroupedTableType;
 

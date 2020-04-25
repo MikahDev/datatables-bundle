@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,17 +10,17 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\Adapter\Doctrine\ORM;
+namespace MikahDev\DataTablesBundle\Adapter\Doctrine\ORM;
 
 use Doctrine\ORM\Query\Expr\Comparison;
 use Doctrine\ORM\QueryBuilder;
-use Omines\DataTablesBundle\Column\AbstractColumn;
-use Omines\DataTablesBundle\DataTableState;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\DataTableState;
 
 /**
  * SearchCriteriaProvider.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class SearchCriteriaProvider implements QueryBuilderProcessorInterface
 {

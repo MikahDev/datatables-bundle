@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,30 +10,30 @@
 
 declare(strict_types=1);
 
-namespace Omines\DataTablesBundle\Adapter\Doctrine;
+namespace MikahDev\DataTablesBundle\Adapter\Doctrine;
 
 use Doctrine\Common\Persistence\ManagerRegistry;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
-use Omines\DataTablesBundle\Adapter\AbstractAdapter;
-use Omines\DataTablesBundle\Adapter\AdapterQuery;
-use Omines\DataTablesBundle\Adapter\Doctrine\Event\ORMAdapterQueryEvent;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORM\AutomaticQueryBuilder;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORM\QueryBuilderProcessorInterface;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORM\SearchCriteriaProvider;
-use Omines\DataTablesBundle\Column\AbstractColumn;
-use Omines\DataTablesBundle\DataTableState;
-use Omines\DataTablesBundle\Exception\InvalidConfigurationException;
-use Omines\DataTablesBundle\Exception\MissingDependencyException;
+use MikahDev\DataTablesBundle\Adapter\AbstractAdapter;
+use MikahDev\DataTablesBundle\Adapter\AdapterQuery;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\Event\ORMAdapterQueryEvent;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORM\AutomaticQueryBuilder;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORM\QueryBuilderProcessorInterface;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORM\SearchCriteriaProvider;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\DataTableState;
+use MikahDev\DataTablesBundle\Exception\InvalidConfigurationException;
+use MikahDev\DataTablesBundle\Exception\MissingDependencyException;
 use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * ORMAdapter.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
- * @author Robbert Beesems <robbert.beesems@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
+ * @author Robbert Beesems <robbert.beesems@mikahdev.com>
  */
 class ORMAdapter extends AbstractAdapter
 {

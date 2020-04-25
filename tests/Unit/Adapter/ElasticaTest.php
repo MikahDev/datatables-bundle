@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -14,10 +14,10 @@ namespace Tests\Unit\Adapter;
 
 use Elastica\Response;
 use Elastica\Transport\AbstractTransport;
-use Omines\DataTablesBundle\Adapter\Elasticsearch\ElasticaAdapter;
-use Omines\DataTablesBundle\Column\TextColumn;
-use Omines\DataTablesBundle\DataTable;
-use Omines\DataTablesBundle\DataTableState;
+use MikahDev\DataTablesBundle\Adapter\Elasticsearch\ElasticaAdapter;
+use MikahDev\DataTablesBundle\Column\TextColumn;
+use MikahDev\DataTablesBundle\DataTable;
+use MikahDev\DataTablesBundle\DataTableState;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
@@ -25,7 +25,7 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * ElasticaTest.
  *
- * @author Niels Keurentjes <niels.keurentjes@omines.com>
+ * @author Niels Keurentjes <niels.keurentjes@mikahdev.com>
  */
 class ElasticaTest extends TestCase
 {
@@ -95,7 +95,7 @@ class ElasticaTest extends TestCase
     }
 
     /*
-     * @expectedException \Omines\DataTablesBundle\Exception\MissingDependencyException
+     * @expectedException \MikahDev\DataTablesBundle\Exception\MissingDependencyException
      * @expectedExceptionMessage Install ruflin/elastica to use the ElasticaAdapter
      * @runInSeparateProcess
      * @preserveGlobalState disabled

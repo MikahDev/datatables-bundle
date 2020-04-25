@@ -2,7 +2,7 @@
 
 /*
  * Symfony DataTables Bundle
- * (c) Omines Internetbureau B.V. - https://omines.nl/
+ * (c) MikahDev Internetbureau B.V. - https://mikahdev.nl/
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -14,9 +14,9 @@ namespace Tests\Fixtures\AppBundle\DataTable\Adapter;
 
 use Doctrine\ORM\Query;
 use Doctrine\ORM\QueryBuilder;
-use Omines\DataTablesBundle\Adapter\AdapterQuery;
-use Omines\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
-use Omines\DataTablesBundle\Column\AbstractColumn;
+use MikahDev\DataTablesBundle\Adapter\AdapterQuery;
+use MikahDev\DataTablesBundle\Adapter\Doctrine\ORMAdapter;
+use MikahDev\DataTablesBundle\Column\AbstractColumn;
 
 class CustomORMAdapter extends ORMAdapter
 {
